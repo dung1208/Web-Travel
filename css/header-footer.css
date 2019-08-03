@@ -48,6 +48,7 @@
     left: 136px;
     display: flex;
     justify-content: space-around;
+    transition-timing-function: 0.4s ease-in-out;
 }
 
 .dropdown>li {
@@ -135,6 +136,7 @@
 
 #sub-footer>form {
     margin-top: 15px;
+    display: inline-block;
 }
 
 #email-input-footer {
@@ -152,8 +154,8 @@
     height: 45px;
     background-color: rgb(239, 108, 87);
     border: none;
-    margin-left: -5px;
-    margin-top: 0.1px;
+    margin-left: -6px;
+    margin-top: 0.3px;
     color: white;
     font-size: 18px;
 }
