@@ -1,0 +1,9 @@
+#page>main>div {
+    width: 100%;
+    height: 700px;
+}
+
+#page>main>div>img {
+    width: inherit;
+    height: inherit;
+}
