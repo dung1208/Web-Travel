@@ -1,0 +1,64 @@
+#aboutPage-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutPage-1>img {
+    width: 100%;
+    height: 700px;
+}
+
+#sologan {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutPage-2 {
+    width: 100%;
+    height:700px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#aboutPage-2Img>img {
+    height: 450px;
+}
+
+#aboutPage-2Text {
+    width: 60%;
+    color: black;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#aboutPage-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutPage-3Img {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#aboutPage-3Img>img {
+    border-radius: 100%;
+    width: 20%
+}
+
+#aboutPage-3Text {
+    flex-direction: row;
+    justify-content: space-around;
+}
