@@ -1,0 +1,81 @@
+#booking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+#booking>img{
+    width: inherit;
+    height: inherit;
+}
+#logan {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#name-info{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+}
+#first-name{
+    padding:20px;
+}
+#last-name{
+    padding:20px;
+}
+.long1{
+    width: 100%;
+    height: 100px;
+padding-left:280px;
+}
+.long2{
+    width: inherit;
+    height: 50px;
+}
+#check{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    justify-content: center;    
+}
+#check-in{
+    padding:20px;
+}
+#check-out{
+    padding:20px;
+}
+#main{
+    width: 100%;
+    height: 700px;
+    display:flex;
+}
+#main1{
+    height: 700px;
+    width: 50%;
+    font-size: 20px;
+}
+.short{
+    height: 50px;    
+}
+#main2{
+    height: 700px;
+    width: 50%;
+    font-size: 25px;
+}
+#main2>img{
+    width: 150px;
+    height: 150px;
+    padding-left: 500px;
+    padding-top: 50px;
+}
+.abc{
+    padding-left: 500px;
+    padding-top: 50px;
+}
