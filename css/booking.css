@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
 #booking>img{
     width: inherit;
@@ -33,7 +33,7 @@
 .long1{
     width: 100%;
     height: 100px;
-padding-left:280px;
+padding-left:142px;
 }
 .long2{
     width: inherit;
@@ -72,10 +72,10 @@ padding-left:280px;
 #main2>img{
     width: 150px;
     height: 150px;
-    padding-left: 500px;
+    padding-left: 50px;
     padding-top: 50px;
 }
 .abc{
-    padding-left: 500px;
+    padding-left: 50px;
     padding-top: 50px;
 }
