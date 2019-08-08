@@ -1,14 +1,27 @@
 /* Main */
 
+
+/* page-1 */
+
 #page-1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#page-1>img {
+#slide-wallpapaer-page-1 {
     width: 100%;
     height: 700px;
+}
+
+#img-wallpapaer-page-1 {
+    width: 100%;
+    height: 100%;
+}
+
+#img-wallpapaer-page-1>img {
+    width: 100%;
+    height: 100%;
 }
 
 #sologan {
@@ -40,7 +53,7 @@
 }
 
 
-/* Destination */
+/* Destination - page-2*/
 
 #page-2-1 {
     margin-top: -70px;
@@ -108,94 +121,388 @@
 }
 
 
-/* What people say */
+/* page-3 */
 
 #page-3 {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#img-page-3 {
+    display: flex;
+    padding-right: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#page-3::before {
+    content: "";
+    background: rgb(178, 187, 201);
+    width: 60%;
+    height: 120%;
+    position: absolute;
+    right: 0px;
+    border-radius: 700px 0 60% 650px;
+    z-index: -1;
+}
+
+#img-page-3>img {
+    width: 600px;
+    height: 800px;
+}
+
+#img-page-3>div {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -123px;
+    transform: rotate(-90deg);
+    width: 290px;
+    height: 130px;
+    background: rgb(226, 192, 187);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#img-page-3>div>h1 {
+    margin-top: 5px;
+    width: 350px;
+    height: 150px;
+    background: url(background-text.PNG);
+    text-align: center;
+    font-size: 76px;
+    color: rgb(255, 255, 255, 0.1);
+    -webkit-background-clip: text;
+}
+
+#text-page-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 36px;
+    padding-left: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#text-page-3>i {
+    font-size: 18px;
+    color: rgb(0, 0, 0, 0.5);
+    padding-left: 50px;
+    margin-bottom: 36px;
+}
+
+#text-page-3>h1 {
+    font-size: 42px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    margin-bottom: 36px;
+}
+
+#text-page-3>p {
+    font-size: 21px;
+    line-height: 28px;
+    color: rgb(0, 0, 0, 0.8);
+    margin-bottom: 32px;
+}
+
+#text-page-3>button {
+    background-color: rgb(226, 192, 187);
+    width: 174px;
+    height: 58px;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5%;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* What people say - page-4 */
+
+#page-4 {
     width: 100%;
     height: 900px;
     background-color: rgb(119, 181, 211, 0.1);
 }
 
-#page-3>div {
+#page-4>div {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#head-page-3 {
+#head-page-4 {
     width: 100%;
     height: 150px;
     font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-#img-page-3 {
+#img-page-4 {
     width: 550px;
     height: 600px;
 }
 
-#img-page-3>img {
+#img-page-4>img {
     width: inherit;
     height: inherit;
 }
 
-#text-page-3 {
+#text-page-4 {
     width: 550px;
     height: 360px;
     background-color: white;
     margin-left: -90px;
 }
 
-#text-page-3>div {
+#text-page-4>div {
     padding: 56px;
 }
 
-#text-message-page-3 {
+#text-message-page-4 {
     line-height: 30px;
     font-size: 20px;
 }
 
-#author-page-3 {
+#author-page-4 {
     margin-top: -90px;
 }
 
-#author-page-3>span {
+#author-page-4>span {
     color: rgb(239, 108, 87);
     font-size: 20px;
 }
 
-#author-page-3>i {
+#author-page-4>i {
     color: rgb(0, 0, 0, 0.6);
     font-size: 20px;
 }
 
 
-/* Blog posts */
+/* About page-5 */
 
-#blog-post-page-4 {
+#page-5 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    padding: 50px;
+}
+
+#img-page-5 {
+    width: 45%;
+    height: 100%;
+}
+
+#img-page-5>img {
+    width: 100%;
+    height: 100%;
+}
+
+#text-page-5 {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+#text-page-5>div>h1 {
+    font-size: 34px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-left: 51px;
+}
+
+#text-page-5>div>p {
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 26px;
+    font-size: 20px;
+    margin-left: 51px;
+}
+
+#box-infor-page-5 {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 51px;
+    margin-top: 13px;
+}
+
+#box-infor-page-5>div {
+    padding: 30px;
+}
+
+.infor-about-page-5 {
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-infor-about {
+    font-size: 26px;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.text-infor-about {
+    color: rgb(0, 0, 0, 0.6);
+}
+
+
+/* Blog posts- page-6*/
+
+#page-6 {
+    margin-bottom: 50px;
+}
+
+#head-page-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+#head-page-6>p {
+    color: rgb(0, 0, 0, 0.5);
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+#blog-post-page-6 {
     display: flex;
     justify-content: center;
 }
 
-#blog-post-page-4>div {
+#blog-post-page-6>div {
     padding: 25px;
 }
 
-#blog-post-page-4>div>a {
+#blog-post-page-6>div>a {
     width: 540px;
     height: 400px;
 }
 
-#blog-post-page-4>div>a>img {
+#blog-post-page-6>div>a>h3 {
+    color: rgb(255, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-bottom: 12px;
+    transition: 0.3s ease-out;
+}
+
+#blog-post-page-6>div>a>h3:hover {
+    color: rgb(255, 0, 0, 0.8);
+}
+
+#blog-post-page-6>div>a>img {
     width: inherit;
     height: inherit;
 }
 
-#blog-post-page-4>div>div {
+#blog-post-page-6>div>div {
     width: 540px;
     height: 150px;
 }
 
-#blog-post-page-4>div>div>a {
-    color: red;
+#blog-post-page-6>div>div>ul {
+    display: flex;
+    list-style: initial;
+    padding-bottom: 30px;
+}
+
+#blog-post-page-6>div>div>ul>li {
+    padding-right: 35px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+#blog-post-page-6>div>div>ul>li:first-child {
+    list-style: none;
+}
+
+#blog-post-page-6>div>div>ul>li:last-child {
+    color: rgb(255, 0, 0, 0.6);
+}
+
+#blog-post-page-6>div>div>a {
+    color: rgb(255, 0, 0, 0.6);
+}
+
+#blog-post-page-6>div>div>p {
+    line-height: 25px;
+    font-size: 18px;
+    color: rgb(0, 0, 0, 0.8);
+    padding-bottom: 10px;
+}
+
+#btn-view-blog-post-page6 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#btn-view-blog-post-page6>button {
+    width: 245px;
+    height: 60px;
+    border: 2px solid rgb(255, 0, 0, 0.6);
+    background-color: white;
+    color: rgb(255, 0, 0, 0.6);
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+#btn-view-blog-post-page6>button:hover {
+    background-color: rgb(255, 0, 0, 0.6);
+    color: white;
+    transition: 0.3s ease-out;
+}
+
+
+/* page-end */
+
+#page-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 70px;
+}
+
+#page-end>h1 {
+    font-size: 40px;
+    margin-top: 70px;
+    font-weight: 100;
+}
+
+#page-end>button {
+    background-color: rgb(239, 108, 87);
+    color: white;
+    width: 180px;
+    height: 55px;
+    outline: none;
+    font-size: 18px;
+    margin-top: 60px;
+    border: none;
+    cursor: pointer;
+}
+
+#page-end>button:hover {
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0, 0.8);
+    transition: 0.2s;
 }
