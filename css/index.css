@@ -142,8 +142,8 @@
 #page-3::before {
     content: "";
     background: rgb(178, 187, 201);
-    width: 60%;
-    height: 120%;
+    width: 810px;
+    height: 790px;
     position: absolute;
     right: 0px;
     border-radius: 700px 0 60% 650px;
@@ -311,11 +311,12 @@
 }
 
 #text-page-5>div>h1 {
-    font-size: 34px;
+    font-size: 54px;
     padding-left: 30px;
     margin-bottom: 25px;
     margin-top: 50px;
     margin-left: 51px;
+    font-family: 'Tangerine', cursive;
 }
 
 #text-page-5>div>p {
@@ -324,6 +325,7 @@
     line-height: 26px;
     font-size: 20px;
     margin-left: 51px;
+    font-style: italic;
 }
 
 #box-infor-page-5 {
