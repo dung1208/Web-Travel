@@ -11,7 +11,7 @@
 
 #sologan {
     color: white;
-    font-size: 60px;
+    font-size: 40px;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -21,14 +21,14 @@
 
 #aboutPage-2 {
     width: 100%;
-    height:600px;
+    height: 600px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 }
 
 #aboutPage-2Text>h1 {
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
 #aboutPage-2Img>img {
@@ -74,7 +74,7 @@
     position: absolute;
     padding-top: 302px;
     width: 100%;
-    height:30px;
+    height: 30px;
     font-size: 20px;
     justify-content: center;
     display: flex;
@@ -100,10 +100,9 @@
     text-align: center;
 }
 
-
 #aboutPage-3ContentMiddle {
-    padding-right:20px;
-    padding-left:20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .icon {
@@ -119,7 +118,7 @@
     padding-left: 167px;
     padding-right: 167px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 #page-end {

@@ -1,0 +1,270 @@
+/* page-1 */
+
+#page-1 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-page-1 {
+    width: 100%;
+    height: 100%;
+}
+
+#img-page-1>img {
+    width: 100%;
+    height: 100%;
+}
+
+#text-page-1 {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+}
+
+
+/* page-2 */
+
+#head-page-2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#head-page-2>h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(230, 201, 197);
+}
+
+#head-page-2>h1 {
+    margin: 30px;
+}
+
+#head-page-2>p {
+    font-size: 20px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+#container-page-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tour {
+    width: 380px;
+    height: 508px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.img-destination-tour {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tour-sale::before {
+    content: "Sale";
+    width: 54px;
+    height: 28px;
+    background-color: rgb(36, 42, 50);
+    position: absolute;
+    color: white;
+    transform: rotate(-90deg);
+    padding: 7px 5px 9px 14px;
+    margin-top: -176px;
+    margin-left: -161px;
+}
+
+.img-destination-tour>img {
+    width: 120%;
+    height: 120%;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+
+.img-destination-tour>img:hover {
+    width: 100%;
+    height: 100%;
+}
+
+.text-tour {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-tour {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(230, 201, 197);
+    border-radius: 5%;
+    padding: 7px 5px 7px 9px;
+    color: white;
+    margin-left: 10px;
+    margin-top: -22px;
+    margin-bottom: 21px;
+}
+
+.sale {
+    width: 90px;
+    height: 30px;
+}
+
+.sale::before {
+    content: " $300";
+    padding-right: 8px;
+    text-decoration-line: line-through;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+.duration-tour {
+    font-size: 14px;
+    color: rgb(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+}
+
+.name-tour {
+    font-size: 20px;
+}
+
+
+/* select-page */
+
+#select-page {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-select {
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #cccccc;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.page-selected {
+    background-color: rgb(255, 0, 0, 0.5);
+}
+
+.icon-select:not(.page-selected)>a {
+    color: rgb(255, 0, 0, 0.5);
+}
+
+
+/* page-end */
+
+#page-end {
+    margin-top: 80px;
+}
+
+#img-page-end {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    overflow: hidden;
+}
+
+#img-page-end>img {
+    width: 100%;
+}
+
+#text-img-page-end {
+    position: absolute;
+    text-align: center;
+    color: rgb(36, 42, 50);
+    font-size: 26px;
+    margin-top: -70px;
+}
+
+#text-img-page-end>h2 {
+    margin-bottom: 30px;
+}
+
+#text-img-page-end>p {
+    color: rgb(36, 42, 50, 0.6);
+}
+
+#search {
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: -140px;
+    border-radius: 10px;
+    border: 1px solid rgb(36, 42, 50, 0.6);
+}
+
+#search>h1 {
+    font-size: 30px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+#search-box {
+    height: 50px;
+    border-radius: 40px;
+    background-color: rgb(47, 54, 67);
+    display: flex;
+    align-items: center;
+}
+
+#search-btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(248, 77, 20);
+    transition: 0.4s;
+}
+
+#search-text {
+    background: none;
+    border: none;
+    outline: none;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+    transition: 0.4s;
+    width: 0;
+}
+
+#search-box:hover #search-text {
+    width: 300px;
+    padding-left: 10px;
+}
+
+#search-box:hover #search-btn {
+    background: white;
+    border: 3px solid rgb(47, 54, 67);
+}
