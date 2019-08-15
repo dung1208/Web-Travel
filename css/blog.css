@@ -4,8 +4,9 @@
     align-items: center;
     width: 100%;
     height: 700px;
+
 }
-#blog-post>img {
+#blog-post>img{
     width: inherit;
     height: inherit;
 }
@@ -21,7 +22,7 @@
 }
 #post12{
     width: 100%;
-    height: 600px;
+    height: 680px;
 
     display:flex;
     justify-content: center;
@@ -30,11 +31,12 @@
 #post12>div>img{
     width: 100%;
     height: 400px;
+    margin-top:60px;
 }
 #post-img1{
     color: black;
     font-size: 20px;
-    width: 45%;
+    width: 42%;
     height: 700px;
     padding:20px;
 
@@ -42,7 +44,7 @@
 #post-img2{
     color: black;
     font-size: 20px;
-    width: 45%;
+    width: 42%;
     height: 700px;
     padding:20px;
 }
@@ -51,10 +53,14 @@
 }
 .p1{
     color:rgb(239, 108, 87);
+    padding-top:25px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
 }
 #post34{
     width: 100%;
-    height: 600px;
+    height: 630px;
 
     display:flex;
     justify-content: center;
@@ -68,14 +74,14 @@
 #post-img3{
     color: black;
     font-size: 20px;
-    width: 45%;
+    width: 42%;
     height: 700px;
     padding:20px;
 }
 #post-img4{
     color: black;
     font-size: 20px;
-    width: 45%;
+    width: 42%;
     height: 700px;
     padding:20px;
    
@@ -91,24 +97,28 @@
 #diva{
 
     width: 100%;
-    height: 70px;
+    height: 120px;
     display:flex;
     justify-content: center;   
      
 }
+
 .by{
-    font-size: 15px;
-    color:rgb(0,0,0,0.5)
+    font-size: 17px;
+    color:rgb(0,0,0,0.3);
+    padding-bottom: 30px;
 }
 #main{
     background-color: rgb(248, 249, 250);
 }
 .p{
     color:rgb(0,0,0,0.6);
+    font-size: 20px;
+    margin-bottom: 50px;
 }
 #post56{
     width: 100%;
-    height: 600px;
+    height: 700px;
 
     display:flex;
     justify-content: center;
@@ -122,16 +132,18 @@
 #post-img5{
     color: black;
     font-size: 20px;
-    width: 45%;
+    width: 42%;
     height: 700px;
     padding:20px;
+    padding-bottom:50px;
 }
 #post-img6{
     color: black;
     font-size: 20px;
-    width: 45%;
+    width: 42%;
     height: 700px;
     padding:20px;
+
 }
 #hed{
     color: white;
