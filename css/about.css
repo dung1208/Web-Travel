@@ -17,6 +17,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: showtext 1s;
+}
+
+@keyframes showtext {
+    0% {
+        top: 450px;
+        opacity: 0;
+    }
+    100% {
+        top: 300px;
+        opacity: 1;
+    }
 }
 
 #aboutPage-2 {
