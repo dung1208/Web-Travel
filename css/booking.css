@@ -1,149 +1,188 @@
-#booking {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 700px;
-}
-
-#booking>img {
-    width: inherit;
-    height: inherit;
-}
-
-#logan {
-    color: white;
-    font-size: 40px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#name-info {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-}
-
-#first-name {
-    padding: 20px;
-}
-
-#last-name {
-    padding: 20px;
-    padding-left: 60px;
-}
-
-.long1 {
-    width: 100%;
-    height: 100px;
-    padding-left: 55px;
-}
-
-.long2 {
-    width: 430px;
-    height: 50px;
-}
-
-#check {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-}
-
-#check-in {
-    padding: 20px;
-}
-
-#check-out {
-    padding: 20px;
-    padding-left: 65px;
-}
-
-#main {
-    width: 100%;
-    height: 700px;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(248, 249, 250);
-}
-
-#main1 {
-    height: 700px;
-    width: 40%;
-    font-size: 20px;
-    background-color: rgb(255, 255, 255);
-}
-
-.short {
-    height: 50px;
-}
-
-#main2 {
-    height: 700px;
-    width: 40%;
-    font-size: 25px;
-    background-color: rgb(255, 255, 255);
-}
-
-#main2>img {
-    width: 90%;
-    height: 400px;
-    margin-bottom: 25px;
-    padding-top: 20px;
-}
-
-#btn1 {
-    width: 245px;
-    height: 60px;
-    border: 2px solid rgb(255, 0, 0, 0.6);
-    background-color: white;
-    color: rgb(255, 0, 0, 0.6);
-    font-size: 16px;
-    outline: none;
-    cursor: pointer;
-}
-
-#btn2 {
-    width: 245px;
-    height: 60px;
-    border: 2px solid rgb(255, 0, 0, 0.6);
-    background-color: white;
-    color: rgb(255, 0, 0, 0.6);
-    font-size: 16px;
-    outline: none;
-    cursor: pointer;
-}
-
-#more-info {
-    margin-top: 50px;
-}
-
-#lorem {
-    font-size: 20px;
-    color: rgb(0, 0, 0, 0.5);
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-#hed {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    display: flex;
-    padding-top: 170px;
-    justify-content: center;
-    align-items: center;
-}
-
-#p2 {
-    padding-left: 20px;
-}
-
-#a {
-    color: rgb(36, 46, 54);
-}
+    #booking {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 700px;
+    }
+    
+    #booking>img {
+        width: inherit;
+        height: inherit;
+    }
+    
+    #logan {
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: showtext 1s;
+    }
+    
+    @keyframes showtext {
+        0% {
+            top: 450px;
+            opacity: 0;
+        }
+        100% {
+            top: 300px;
+            opacity: 1;
+        }
+    }
+    
+    #logan>div {
+        display: flex;
+        font-size: 20px;
+    }
+    
+    #logan>div>a {
+        color: rgb(255, 0, 0, 0.6);
+        padding: 15px;
+    }
+    
+    #logan>div>p {
+        padding: 15px;
+    }
+    /*main*/
+    
+    #main {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(248, 249, 250);
+        padding: 80px 0px;
+    }
+    
+    #main1 {
+        width: 670px;
+        height: 750px;
+        padding: 48px;
+        background-color: rgb(255, 255, 255);
+        margin-right: 15px;
+    }
+    
+    #main2 {
+        width: 445px;
+        height: 588px;
+        padding: 24px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 15px;
+    }
+    
+    #main2>img {
+        width: 397px;
+        height: 265px;
+        margin: 0px 0px 24px;
+    }
+    
+    .short {
+        width: 255px;
+        height: 43px;
+        outline: none;
+        border: 1px solid rgb(0, 0, 0, 0.3);
+        padding: 4px 8px;
+    }
+    
+    #main1>div>div {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 15px;
+        margin-bottom: 15px;
+    }
+    
+    #div1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .select {
+        width: 539px;
+        height: 43px;
+        padding: 6px 12px;
+        margin-bottom: 15px;
+        margin-top: 12px;
+    }
+    
+    .div2 {
+        padding: 0px 15px;
+    }
+    
+    #div3 {
+        padding: 0px 15px;
+    }
+    
+    #div3>textarea {
+        width: 539px;
+        height: 143px;
+        padding: 6px 12px;
+        margin-top: 12px;
+    }
+    
+    #btn1 {
+        width: 92px;
+        height: 44px;
+        background-color: #EF6C57;
+        color: white;
+        padding: 8px 24px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    #btn1:hover {
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+    }
+    
+    #btn {
+        padding: 0px 15px;
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    
+    .label {
+        margin: 0px 0px 5px;
+        height: 27px;
+    }
+    
+    .label2 {
+        margin: 0px 0px 8px;
+    }
+    
+    #main2>div>h4 {
+        margin: 0px 0px 16px;
+        font-size: 25px;
+    }
+    
+    #btn3 {
+        width: 140px;
+        height: 44px;
+        background-color: #EF6C57;
+        color: white;
+        padding: 8px 24px;
+        outline: none;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    #div5 {
+        margin: 0px 0px 16px;
+    }
+    
+    #main2>div>p {
+        margin: 0px 0px 16px;
+        color: #4D4D4D;
+        font: 20px;
+        line-height: 25px;
+    }
+    
+    #btn3:hover {
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+    }
