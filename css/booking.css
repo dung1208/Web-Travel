@@ -1,14 +1,16 @@
-#booking{
+#booking {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 700px;
 }
-#booking>img{
+
+#booking>img {
     width: inherit;
     height: inherit;
 }
+
 #logan {
     color: white;
     font-size: 40px;
@@ -18,72 +20,84 @@
     justify-content: center;
     align-items: center;
 }
-#name-info{
+
+#name-info {
     width: 100%;
     height: 100px;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
-#first-name{
-    padding:20px;
 
+#first-name {
+    padding: 20px;
 }
-#last-name{
-    padding:20px;
+
+#last-name {
+    padding: 20px;
     padding-left: 60px;
 }
-.long1{
+
+.long1 {
     width: 100%;
     height: 100px;
-padding-left:55px;
+    padding-left: 55px;
 }
-.long2{
+
+.long2 {
     width: 430px;
     height: 50px;
 }
-#check{
+
+#check {
     width: 100%;
     height: 100px;
-    display:flex;
-    justify-content: center;    
+    display: flex;
+    justify-content: center;
 }
-#check-in{
-    padding:20px;
+
+#check-in {
+    padding: 20px;
 }
-#check-out{
-    padding:20px;
-    padding-left:65px;
+
+#check-out {
+    padding: 20px;
+    padding-left: 65px;
 }
-#main{
+
+#main {
     width: 100%;
     height: 700px;
-    display:flex;
-    justify-content:space-around;
+    display: flex;
+    justify-content: space-around;
     background-color: rgb(248, 249, 250);
 }
-#main1{
+
+#main1 {
     height: 700px;
     width: 40%;
     font-size: 20px;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 }
-.short{
-    height: 50px;    
+
+.short {
+    height: 50px;
 }
-#main2{
+
+#main2 {
     height: 700px;
     width: 40%;
     font-size: 25px;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 }
-#main2>img{
+
+#main2>img {
     width: 90%;
     height: 400px;
     margin-bottom: 25px;
     padding-top: 20px;
 }
 
-#btn1{
+#btn1 {
     width: 245px;
     height: 60px;
     border: 2px solid rgb(255, 0, 0, 0.6);
@@ -93,39 +107,43 @@ padding-left:55px;
     outline: none;
     cursor: pointer;
 }
-#btn2{
-    width: 245px;
-    height: 60px;
-    border: 2px solid rgb(255, 0, 0, 0.6);
-    background-color: white;
-    color: rgb(255, 0, 0, 0.6);
-    font-size: 16px;
-    outline: none;
-    cursor: pointer;
 
+#btn2 {
+    width: 245px;
+    height: 60px;
+    border: 2px solid rgb(255, 0, 0, 0.6);
+    background-color: white;
+    color: rgb(255, 0, 0, 0.6);
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
 }
-#more-info{
-    margin-top:50px;
+
+#more-info {
+    margin-top: 50px;
 }
-#lorem{
+
+#lorem {
     font-size: 20px;
-    color:rgb(0,0,0,0.5);
+    color: rgb(0, 0, 0, 0.5);
     padding-top: 25px;
     padding-bottom: 25px;
 }
-#hed{
+
+#hed {
     color: white;
     font-size: 20px;
     position: absolute;
     display: flex;
-    padding-top:250px;
+    padding-top: 170px;
     justify-content: center;
     align-items: center;
+}
 
+#p2 {
+    padding-left: 20px;
 }
-#p2{
-    padding-left:20px;
-}
-#a{
-    color:rgb(36, 46, 54);
+
+#a {
+    color: rgb(36, 46, 54);
 }

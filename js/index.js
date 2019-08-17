@@ -17,3 +17,16 @@ const goRight = () => {
     slides[0].style.marginLeft = "-" + 25 * index + "%";
 }
 setInterval(goRight, 5000);
+
+/* button booking*/
+document.getElementById('btn-booking-index-head').onclick = () => {
+    location.href = "booking.html";
+};
+
+document.getElementById('btn-booking-index-end').onclick = () => {
+    location.href = "booking.html";
+};
+/* button blog */
+document.getElementById('btn-view-blog-post-page6').onclick = () => {
+    location.href = "blog.html"
+}
