@@ -17,31 +17,54 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: showtext 1s;
+}
+
+@keyframes showtext {
+    0% {
+        top: 450px;
+        opacity: 0;
+    }
+    100% {
+        top: 300px;
+        opacity: 1;
+    }
 }
 
 #aboutPage-2 {
     width: 100%;
     height: 600px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 110px;
+    padding-right: 110px;
 }
 
 #aboutPage-2Text>h1 {
     padding-bottom: 20px;
 }
 
-#aboutPage-2Img>img {
-    height: 450px;
+#aboutPage-2Img {
+    width: 540px;
 }
 
 #aboutPage-2Text {
     width: 60%;
-    color: black;
-    font-size: 25px;
+    padding-left: 60px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#aboutPage-2Text>p {
+    color: rgb(0, 0, 0, 0.6);
+    line-height: 25px;
+}
+
+#checklists {
+    padding-top: 20px;
 }
 
 #aboutPage-3 {
@@ -94,6 +117,8 @@
     justify-content: center;
     padding-left: 170px;
     padding-right: 170px;
+    color: rgb(0, 0, 0, 0.6);
+    line-height: 25px;
 }
 
 #aboutPage-3Content>p {
@@ -105,11 +130,27 @@
     padding-left: 20px;
 }
 
+.fas {
+    color: rgb(239, 108, 87);
+    padding-right: 8px;
+}
+
 .icon {
     color: rgb(239, 108, 87);
     transform: scale(1);
     padding-left: 15px;
     padding-right: 15px
+}
+
+.checklist {
+    display: flex;
+    flex-direction: row;
+}
+
+.checklist>p {
+    font-size: 20px;
+    color: rgb(0, 0, 0, 0.5);
+    line-height: 30px;
 }
 
 #aboutPage-3Icon {
@@ -234,7 +275,6 @@ input[name="r"] {
     color: rgb(0, 0, 0, 0.6);
     font-size: 20px;
 }
-
 
 #page-end {
     display: flex;
