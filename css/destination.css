@@ -22,6 +22,19 @@
     position: absolute;
     color: white;
     font-size: 40px;
+    top: 300px;
+    animation: text-destination 1s ease-out;
+}
+
+@keyframes text-destination {
+    0% {
+        top: 450px;
+        opacity: 0;
+    }
+    100% {
+        top: 300px;
+        opacity: 1;
+    }
 }
 
 
