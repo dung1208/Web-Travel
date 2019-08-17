@@ -1,0 +1,171 @@
+#contactPage-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactPage-1>img {
+    width: 100%;
+    height: 700px;
+}
+
+#sologan {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactPage-2 {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#customerInfo {
+    display: flex;
+    width: 40%;
+    height: 466px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+#firstName {
+    display: flex;
+    flex-direction: column;
+}
+
+#lastName {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxT1 {
+    width: 260px;
+    height: 40px;
+}
+
+.boxT1_2 {
+    height: 40px;
+}
+
+#message>input {
+    height: 150px;
+}
+
+#email {
+    display: flex;
+    flex-direction: column;
+}
+
+#subject {
+    display: flex;
+    flex-direction: column;
+}
+
+#message {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    /* font-weight: bold; */
+    padding-bottom: 8px; 
+}
+
+#ourInfor {
+    display: flex;
+    width: 40%;
+    height:700px;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+#ourInforText {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#ourInforImg{
+    display: flex;
+    height: 420px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#ourInforImgText {
+    padding-bottom: 8px;
+}
+
+#contactImg {
+    width: 90%;
+    height: 300px;
+    padding-bottom: 30px;
+}
+
+#page-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 70px;
+}
+
+#page-end>h1 {
+    font-size: 40px;
+    margin-top: 70px;
+    font-weight: 100;
+}
+
+.button {
+    background-color: rgb(239, 108, 87);
+    color: white;
+    width: 180px;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    margin-top: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0, 0.8);
+    transition: 0.2s;
+}
+
+#buttonEnd {
+    background-color: rgb(239, 108, 87);
+    color: white;
+    width: 180px;
+    height: 55px;
+    outline: none;
+    font-size: 18px;
+    margin-top: 60px;
+    border: none;
+    cursor: pointer;
+}
+
+#buttonEnd:hover {
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0, 0.8);
+    transition: 0.2s;
+}
