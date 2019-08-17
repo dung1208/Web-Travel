@@ -147,10 +147,12 @@
     .label {
         margin: 0px 0px 5px;
         height: 27px;
+        font-size: 20px;
     }
     
     .label2 {
         margin: 0px 0px 8px;
+        font-size: 20px;
     }
     
     #main2>div>h4 {
