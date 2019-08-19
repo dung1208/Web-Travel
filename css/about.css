@@ -63,8 +63,24 @@
     line-height: 25px;
 }
 
+.checklist {
+    display: flex;
+    flex-direction: row;
+}
+
+.checklist>p {
+    font-size: 20px;
+    color: rgb(0, 0, 0, 0.5);
+    line-height: 30px;
+}
+
 #checklists {
     padding-top: 20px;
+}
+
+.fa-check {
+    color: rgb(239, 108, 87);
+    padding-right: 8px;
 }
 
 #aboutPage-3 {
@@ -80,36 +96,20 @@
     font-size: 50px;
 }
 
-#aboutPage-3Img {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
-#aboutPage-3Img>img {
+
+.aboutAvatar {
     border-radius: 100%;
     width: 367px;
     padding: 96px;
 }
 
-#aboutPage-3Text {
-    position: absolute;
-    padding-top: 302px;
-    width: 100%;
-    height: 30px;
-    font-size: 20px;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-}
-
-#aboutPage-3Text>h1 {
+.aboutName {
     padding-right: 112px;
     padding-left: 112px;
 }
 
-#aboutPage-3Content {
+.aboutDescription {
     width: 100%;
     font-size: 20px;
     display: flex;
@@ -121,28 +121,6 @@
     line-height: 25px;
 }
 
-#aboutPage-3Content>p {
-    width: 367px;
-}
-
-#aboutPage-3Content>p:last-child {
-    margin-left: 50px;
-    padding-left: 60px;
-}
-
-#aboutPage-3Content>p:first-child {
-    margin-right: 80px;
-}
-
-.fa-check {
-    color: rgb(239, 108, 87);
-    padding-right: 8px;
-}
-
-#aboutPage-3Content>p {
-    text-align: center;
-}
-
 .icon {
     color: rgb(239, 108, 87);
     transform: scale(1);
@@ -150,16 +128,6 @@
     padding-right: 15px
 }
 
-.checklist {
-    display: flex;
-    flex-direction: row;
-}
-
-.checklist>p {
-    font-size: 20px;
-    color: rgb(0, 0, 0, 0.5);
-    line-height: 30px;
-}
 
 #aboutPage-3Icon {
     width: 100%;
@@ -169,6 +137,8 @@
     display: flex;
     justify-content: space-around;
 }
+
+/*page-4*/
 
 #page-4 {
     width: 100%;
