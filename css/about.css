@@ -41,8 +41,10 @@
     padding-right: 110px;
 }
 
-#aboutPage-2Text>h1 {
+#aboutPage-2TextHeadline {
     padding-bottom: 20px;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #aboutPage-2Img {
@@ -83,42 +85,60 @@
     padding-right: 8px;
 }
 
+/*page-3*/
+
 #aboutPage-3 {
     width: 100%;
     height: 609px;
     display: flex;
     flex-direction: column;
+}
+
+#aboutPage-3Headline {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#aboutPage-3People {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aboutEachPerson {
+    width:26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-#aboutPage-2Headline {
-    position: absolute;
-    font-size: 50px;
-}
-
-
-
 .aboutAvatar {
     border-radius: 100%;
-    width: 367px;
-    padding: 96px;
+    width: 175px;
+    height: 175px;    
 }
 
 .aboutName {
-    padding-right: 112px;
-    padding-left: 112px;
+    padding-top: 40px;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .aboutDescription {
-    width: 100%;
+    width: 90%;
+    height: 170px;
     font-size: 20px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    padding-left: 170px;
-    padding-right: 170px;
+    align-items: center;
     color: rgb(0, 0, 0, 0.6);
     line-height: 25px;
+    text-align: center;
 }
 
 .icon {
