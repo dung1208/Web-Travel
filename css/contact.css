@@ -36,7 +36,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    padding-top: 70px;
+    background: #F8F9FA
 }
 
 #customerInfo {
