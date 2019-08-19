@@ -122,17 +122,25 @@
 }
 
 #aboutPage-3Content>p {
-    text-align: center;
+    width: 367px;
 }
 
-#aboutPage-3ContentMiddle {
-    padding-right: 20px;
-    padding-left: 20px;
+#aboutPage-3Content>p:last-child {
+    margin-left: 50px;
+    padding-left: 60px;
 }
 
-.fas {
+#aboutPage-3Content>p:first-child {
+    margin-right: 80px;
+}
+
+.fa-check {
     color: rgb(239, 108, 87);
     padding-right: 8px;
+}
+
+#aboutPage-3Content>p {
+    text-align: center;
 }
 
 .icon {
