@@ -15,7 +15,6 @@ body>img {
 }
 
 #text {
-    font-family: 'Tangerine', cursive;
     font-size: 60px;
     color: rgb(0, 0, 0, 0.6);
     position: absolute;
@@ -23,10 +22,6 @@ body>img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-h3 {
-    letter-spacing: 6px;
 }
 
 h1 {
