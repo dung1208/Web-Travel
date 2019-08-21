@@ -129,6 +129,7 @@
     color: rgb(255, 0, 0, 0.6);
     font-size: 16px;
     cursor: pointer;
+    outline: none;
 }
 
 #btn:hover {
@@ -210,6 +211,7 @@
     color: rgb(36, 46, 54);
 }
 
+
 /*sub*/
 
 #page-end {
@@ -246,7 +248,7 @@
     transition: 0.2s;
 }
 
-#buttonEnd {
+#btn-booking-index-end {
     background-color: rgb(239, 108, 87);
     color: white;
     width: 180px;
@@ -258,7 +260,7 @@
     cursor: pointer;
 }
 
-#buttonEnd:hover {
+#btn-booking-index-end:hover {
     background-color: white;
     border: 2px solid rgb(0, 0, 0, 0.8);
     color: rgb(0, 0, 0, 0.8);

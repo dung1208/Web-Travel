@@ -160,7 +160,7 @@
         font-size: 25px;
     }
     
-    #btn3 {
+    #btn-learnmore {
         width: 140px;
         height: 44px;
         background-color: #EF6C57;
@@ -183,7 +183,7 @@
         line-height: 25px;
     }
     
-    #btn3:hover {
+    #btn-learnmore:hover {
         background-color: white;
         color: black;
         border: 2px solid black;

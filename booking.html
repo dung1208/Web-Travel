@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./css/header-footer.css">
     <link rel="stylesheet" href="./css/booking.css">
     <link rel="stylesheet" href="./css/fontawesome-free-5.9.0-web/css/all.css">
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-firestore.js"></script>
+
     <title>Wanderers</title>
 </head>
 <section id="page">
@@ -138,7 +141,7 @@
                 <div>
                     <h4>More Info</h4>
                     <p>Wanderers are a European travel company, we offer lots of tours across Europe. You will experience a lot of special and interesting things, learn cultural and architectural discoveries of many places and surely we will make you satisfied.</p>
-                    <div id="div5"><button id="btn3">Learn More</button>
+                    <div id="div5"><button id="btn-learnmore">Learn More</button>
                     </div>
                 </div>
             </div>
@@ -197,5 +200,21 @@
 <body>
 
 </body>
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyCT7GQyRUh1fw_P2ZwT9Ila1KVWWdPkhBc",
+        authDomain: "project-c4ejs.firebaseapp.com",
+        databaseURL: "https://project-c4ejs.firebaseio.com",
+        projectId: "project-c4ejs",
+        storageBucket: "project-c4ejs.appspot.com",
+        messagingSenderId: "298022540657",
+        appId: "1:298022540657:web:01911a0c2fd95834"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+<script src="js/booking.js"></script>
+<script src="js/btnLearnmore.js"></script>
 
 </html>
