@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./css/header-footer.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/fontawesome-free-5.9.0-web/css/all.css">
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-firestore.js"></script>
+
     <title>Wanderers</title>
 </head>
 <section id="page">
@@ -108,10 +111,10 @@
 
                 <div id="message">
                     <label class="label" for="boxMessage">Message</label>
-                    <input id="boxMessage" type="text" placeholder="Write your notes or questions here...">
+                    <textarea name="" id="boxMessage" placeholder="Write your notes or questions here..."></textarea>
                 </div>
                 <div>
-                    <button class="button">Send Message</button>
+                    <button class="button" id="send-info">Send Message</button>
                 </div>
             </div>
 
@@ -215,7 +218,23 @@
 <body>
 
 </body>
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyCT7GQyRUh1fw_P2ZwT9Ila1KVWWdPkhBc",
+        authDomain: "project-c4ejs.firebaseapp.com",
+        databaseURL: "https://project-c4ejs.firebaseio.com",
+        projectId: "project-c4ejs",
+        storageBucket: "project-c4ejs.appspot.com",
+        messagingSenderId: "298022540657",
+        appId: "1:298022540657:web:01911a0c2fd95834"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+<script src="js/sendInfo.js"></script>
 <script src="js/btnBooking.js"></script>
 <script src="js/btnLearnmore.js"></script>
+
 
 </html>

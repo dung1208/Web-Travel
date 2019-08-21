@@ -120,7 +120,7 @@
         margin-top: 12px;
     }
     
-    #btn1 {
+    #send-info {
         width: 92px;
         height: 44px;
         background-color: #EF6C57;
@@ -132,7 +132,7 @@
         font-size: 16px;
     }
     
-    #btn1:hover {
+    #send-info:hover {
         background-color: white;
         color: black;
         border: 2px solid black;

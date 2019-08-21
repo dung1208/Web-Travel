@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/welcome.css">
+    <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-firestore.js"></script>
+
+    <title>Wanderers</title>
+</head>
+
+<body>
+    <img src="img/welcome.jpg" alt="">
+    <div id="text">
+        <h1 id="content"></h1>
+        <h3>Thanks you for choosing our service</h3>
+        <h4>We will contact you quickly</h4>
+        <a href="index.html">Back to home</a>
+    </div>
+</body>
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyCT7GQyRUh1fw_P2ZwT9Ila1KVWWdPkhBc",
+        authDomain: "project-c4ejs.firebaseapp.com",
+        databaseURL: "https://project-c4ejs.firebaseio.com",
+        projectId: "project-c4ejs",
+        storageBucket: "project-c4ejs.appspot.com",
+        messagingSenderId: "298022540657",
+        appId: "1:298022540657:web:01911a0c2fd95834"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+<script src="js/welcome.js"></script>
+
+</html>

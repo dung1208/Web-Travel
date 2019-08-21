@@ -93,11 +93,11 @@
                 <div id="div1">
                     <div>
                         <label class="label" for="">First Name</label>
-                        <input class="short " type="text" placeholder="Enter your first name">
+                        <input class="short " type="text" id="boxFirstName" placeholder="Enter your first name">
                     </div>
                     <div>
                         <label class="label" for="">Last Name</label>
-                        <input class="short" type="text" placeholder="Enter your lastname">
+                        <input class="short" type="text" id="boxLastName" placeholder="Enter your lastname">
                     </div>
                     <div>
                         <label class="label" for="">Date Of Travel</label>
@@ -105,7 +105,7 @@
                     </div>
                     <div>
                         <label class="label" for="">Email</label>
-                        <input class="short" type="text" placeholder="Email">
+                        <input class="short" type="text" id="boxEmail" placeholder="Email">
                     </div>
                 </div>
                 <div class="div2">
@@ -130,10 +130,10 @@
                 </div>
                 <div id="div3">
                     <label class="label2" for="">Notes</label>
-                    <textarea name="" id="" placeholder="Write your notes"></textarea>
+                    <textarea name="note" placeholder="Write your notes" id="boxMessage"></textarea>
                 </div>
                 <div id="btn">
-                    <button id="btn1">Send</button>
+                    <button id="send-info">Send</button>
                 </div>
             </div>
             <div id="main2">
@@ -214,7 +214,7 @@
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
 </script>
-<script src="js/booking.js"></script>
+<script src="js/sendInfo.js"></script>
 <script src="js/btnLearnmore.js"></script>
 
 </html>

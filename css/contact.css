@@ -73,7 +73,7 @@
     height: 40px;
 }
 
-#message>input {
+#message>textarea {
     height: 150px;
 }
 

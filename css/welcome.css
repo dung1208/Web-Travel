@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body>img {
+    width: 100%;
+    height: 657px;
+}
+
+#text {
+    font-family: 'Tangerine', cursive;
+    font-size: 70px;
+    color: rgb(0, 0, 0, 0.6);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    letter-spacing: 6px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+a {
+    margin-top: 20px;
+    color: rgb(255, 0, 0, 0.6);
+}
