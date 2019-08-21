@@ -14,4 +14,4 @@ const addContent = async() => {
 }
 setTimeout(() => {
     addContent();
-}, 1000)
+}, 500)
